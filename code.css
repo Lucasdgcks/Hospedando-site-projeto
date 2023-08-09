@@ -48,6 +48,7 @@ h3{
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  max-width: 690px;
 }
 section.serviços{
     text-align: justify;
@@ -56,6 +57,7 @@ section.serviços{
     padding: 10px;
     box-shadow: 5px 5px 12px orangered;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 690px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;

@@ -57,15 +57,18 @@ h3{
     padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    max-width: 690px;
+    text-align: justify;
 }
 #contemnotebooks{
   margin: auto;
   text-align: center;
+  
 }
 div.notebooks{
     border-radius: 10px;
     box-shadow: 1px 1px 10px;
-    width: 400px;
+    width: 320px;
     padding: 10px;
     background-color: white;
     margin: auto;
