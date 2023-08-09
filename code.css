@@ -33,7 +33,7 @@ body{
 }
 h2{
     text-align: center;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h3{
     text-align: center;
@@ -67,17 +67,7 @@ section.serviços{
   border-radius: 50px;
   box-shadow: 3px 3px 12px orangered ;
 }
-div.serviços1{
-    width: 300px;
-    background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
-    padding: 10px;
-    border-radius: 15px;
-    display: inline-block;
-    margin: auto;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    box-shadow: 4px 4px 20px orange;
-}
+
 div.serviços2{
     width: 300px;
     background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
