@@ -45,7 +45,7 @@ section{
     padding: 10px;
     box-shadow: 5px 5px 12px orangered;
     font-family: cursive;
-    width: 690px;
+    
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ section{
   box-shadow: 3px 3px 12px orangered ;
 }
 div.serviços1{
-    width: 300px;
+    
     background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
     padding: 10px;
     border-radius: 15px;
@@ -69,7 +69,7 @@ div.serviços1{
     box-shadow: 4px 4px 20px orange;
 }
 div.serviços2{
-    width: 300px;
+    
     background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
     padding: 10px;
     border-radius: 15px;
