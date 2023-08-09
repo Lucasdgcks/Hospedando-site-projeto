@@ -38,17 +38,29 @@ h2{
 h3{
     text-align: center;
 }
-section{
+#sobreempresa{
+  width: 690px;
+  background-image: linear-gradient(to right,#ABB1BB,#E2E5E8 );
+  text-align: justify;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 5px 5px 12px orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+section.serviços{
+   
     text-align: justify;
-    background-color: white;
     border-radius: 15px;
     padding: 10px;
     box-shadow: 5px 5px 12px orangered;
-    font-family: cursive;
-    
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-image: linear-gradient(to right,#ABB1BB,#E2E5E8 );
 }
 #logoimg{
     text-align: center;
@@ -58,7 +70,7 @@ section{
   box-shadow: 3px 3px 12px orangered ;
 }
 div.serviços1{
-    
+    width: 300px;
     background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
     padding: 10px;
     border-radius: 15px;
@@ -69,7 +81,7 @@ div.serviços1{
     box-shadow: 4px 4px 20px orange;
 }
 div.serviços2{
-    
+    width: 300px;
     background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
     padding: 10px;
     border-radius: 15px;
@@ -78,6 +90,7 @@ div.serviços2{
     margin-right: 20px;
     margin-bottom: 10px;
     box-shadow: 4px 4px 20px orange;
+    
 }
 div.botao{
     text-align: center;
