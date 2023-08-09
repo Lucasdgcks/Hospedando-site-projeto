@@ -51,6 +51,7 @@ h3{
 }
 section.serviços{
     text-align: justify;
+    text-align: center;
     border-radius: 15px;
     padding: 10px;
     box-shadow: 5px 5px 12px orangered;
@@ -67,7 +68,6 @@ section.serviços{
   border-radius: 50px;
   box-shadow: 3px 3px 12px orangered ;
 }
-
 div.serviços2{
     width: 300px;
     background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
