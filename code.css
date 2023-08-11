@@ -21,7 +21,9 @@ ul.menu {
   }
   
   .menu a:hover {
-    text-decoration: underline;
+    box-shadow: 3px 3px 7px #414040;
+    padding: 6px;
+    border-radius: 10px;
   }
 body{
     background-image: linear-gradient(to right,#ff3131, #ff914d);
@@ -68,8 +70,10 @@ section.serviços{
 }
 #codeimg{
   border-radius: 50px;
-  box-shadow: 3px 3px 12px orangered ;
+  box-shadow: 3px 3px 12px orangered;
+  max-width: 100%;
 }
+
 div.serviços2{
     width: 300px;
     background-image: linear-gradient(to bottom, #FA8806,#F79D04,#F3A259);
@@ -121,10 +125,6 @@ a{
   .footer-menu a {
     text-decoration: none;
     color: white;
-  }
-  
-  .footer-menu a:hover {
-    text-decoration: underline;
   }
  #lucas{
   color: #E2E5E8;
