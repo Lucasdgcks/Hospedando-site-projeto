@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'bebas';
+  src: url('BebasNeue-Regular.ttf') format('truetype');
+}
+header{
+  background-image: linear-gradient(to bottom, orangered, orange);
+  display: flow-root;
+  color: white;
+  font-family: 'bebas', Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+}
 ul.menu {
     margin: 0;
     padding: 0;
@@ -13,6 +26,7 @@ ul.menu {
   .menu li {
     margin: 0;
     padding: 10px 20px;
+    margin-top: 5px;
   }
   
   .menu a {
@@ -21,9 +35,10 @@ ul.menu {
   }
   
   .menu a:hover {
-    box-shadow: 3px 3px 7px #414040;
+    box-shadow: 3px 3px 7px #d1d0d0;
     padding: 6px;
     border-radius: 10px;
+    transition: 0.2s;
   }
 body{
     background-image: linear-gradient(to right,#ff3131, #ff914d);
@@ -32,6 +47,9 @@ body{
 @font-face {
     font-family: 'code';
     src: url('code.ttf') format('truetype');
+}
+h1{
+  letter-spacing: 2px;
 }
 h2{
     text-align: center;

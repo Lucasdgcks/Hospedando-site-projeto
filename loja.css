@@ -1,3 +1,13 @@
+header{
+  background-image: linear-gradient(to top, rgb(67, 67, 250),rgb(62, 122, 253), aqua);
+  display: flow-root;
+  color: white;
+  font-family: 'bebas', Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 2px;
+}
 ul.menu {
     margin: 0;
     padding: 0;
@@ -13,6 +23,7 @@ ul.menu {
   .menu li {
     margin: 0;
     padding: 10px 20px;
+    margin-top: 5px;
   }
   
   .menu a {
@@ -21,12 +32,13 @@ ul.menu {
   }
   
   .menu a:hover {
-    box-shadow: 3px 3px 7px #414040;
+    box-shadow: 3px 3px 7px #d1d0d0;
     padding: 6px;
     border-radius: 10px;
+    transition: 0.2s;
   }
 body{
-    background-image: linear-gradient(to right, rgb(67, 67, 250),rgb(62, 122, 253), aqua);
+    background-image: linear-gradient(to bottom, rgb(67, 67, 250),rgb(62, 122, 253), aqua);
     margin: auto;
 }
 @font-face {
@@ -36,7 +48,7 @@ body{
 #fenixazul{
     text-align: center;
 }
-h1{
+#store{
     font-family:'bebas', Arial, Helvetica, sans-serif;
     font-size: 4em;
     text-align: center;
@@ -47,7 +59,9 @@ h1{
     margin: auto;
     margin-bottom: 10px;
     cursor: grab;
+    letter-spacing: 1px;
 }
+
 h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -77,6 +91,7 @@ div.notebooks{
     padding: 10px;
     background-color: white;
     margin: auto;
+    margin-right:10px;
     margin-bottom: 20px;
     display: inline-block;
     text-align: center;
@@ -110,6 +125,7 @@ p.preço{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: large;
+    
 }
 #parcelamento{
     font-size: smaller;

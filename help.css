@@ -2,6 +2,16 @@
     font-family: 'bebas';
     src: url('BebasNeue-Regular.ttf') format('truetype');
   }
+  header{
+    background-image: linear-gradient(to bottom, orangered, orange);
+    display: flow-root;
+    color: white;
+    font-family: 'bebas', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 2px;
+  }
 body{
     background-image: linear-gradient(to right,#ff3131, #ff914d);
     margin: auto;
@@ -20,6 +30,7 @@ background-color: #333;
 .menu li {
 margin: 0;
 padding: 10px 20px;
+margin-top: 5px;
 }
 
 .menu a {
@@ -28,11 +39,12 @@ color: white;
 }
 
 .menu a:hover {
-  box-shadow: 3px 3px 7px #414040;
+  box-shadow: 3px 3px 7px  #d1d0d0;
   padding: 6px;
   border-radius: 10px;
+  transition: 0.2s;
 }
-h1{
+#help{
     font-family: 'bebas';
     text-align: center;
     font-size: 4em;
@@ -42,6 +54,7 @@ h1{
     max-width: 130px;
     margin: auto;
     margin-top: 8px;
+    letter-spacing: 3px;
 }
 
 h2{
