@@ -17,7 +17,7 @@ ul.menu {
   /* Estilos do menu */
   .menu {
     display: flex;
-    background-color: #333;
+   background-image: linear-gradient(to right,  blue , rgb(62, 122, 253));
   }
   
   .menu li {

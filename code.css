@@ -20,7 +20,7 @@ ul.menu {
   /* Estilos do menu */
   .menu {
     display: flex;
-    background-color: #333;
+    background-image: linear-gradient(to right,orangered, orange, rgb(253, 165, 1));
   }
   
   .menu li {
