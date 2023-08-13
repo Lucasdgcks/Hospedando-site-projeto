@@ -20,6 +20,7 @@ ul.menu {
     margin: 0;
     padding: 0;
     list-style: none;
+    background-image: linear-gradient(to right,orangered, orange, rgb(253, 165, 1));
   }
 
 .menu {
